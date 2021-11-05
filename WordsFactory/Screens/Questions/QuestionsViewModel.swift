@@ -7,12 +7,14 @@
 
 import Foundation
 import SwiftUI
+import WidgetKit
 
 class QuestionsViewModel: ViewModel {
     @Published var dict: [LocalWordModel] = [] {
         didSet {
             UserDefaults(suiteName: "group.wordsfactory")!.set(try? JSONEncoder().encode(dict), forKey: "dict")
             questions = Array(dict.sorted { $0.level > $1.level }.prefix(10))
+            WidgetCenter.shared.reloadAllTimelines()
         }
     }
     

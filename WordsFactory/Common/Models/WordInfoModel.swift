@@ -11,6 +11,12 @@ struct WordInfoModel: Codable {
     let word: String?
     let phonetic: String?
     let meanings: [MeaningModel]
+    let phonetics: [PhoneticModel]
+}
+
+struct PhoneticModel: Codable {
+    let text: String
+    let audio: String
 }
 
 struct MeaningModel: Codable {

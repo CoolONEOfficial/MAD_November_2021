@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WordInfoView: View {
+    let am = MusicServiceSingleton.shared
     let info: WordInfoModel
     
     var body: some View {
@@ -16,7 +17,10 @@ struct WordInfoView: View {
                 HStack(alignment: .bottom, spacing: 16) {
                     Text(info.word ?? "").font(.title)
                     Text(info.phonetic ?? "").font(.plainMedium).foregroundColor(.primary)
-                    Image("sound").resizable().width(25).height(22)
+                    Image("sound").resizable().width(25).height(22).onTapGesture {
+                        guard let str = info.phonetics.first?.audio else { return }
+                        am.play(str)
+                    }
                 }
                 if let meaning = info.meanings.first {
                     HStack(alignment: .bottom, spacing: 16) {

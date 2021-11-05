@@ -21,6 +21,7 @@ class MainViewModel: ViewModel {
     @Published var dict: [LocalWordModel] = (try? JSONDecoder().decode([LocalWordModel].self, from: UserDefaults(suiteName: "group.wordsfactory")!.data(forKey: "dict") ?? .init())) ?? [] {
         didSet {
             UserDefaults(suiteName: "group.wordsfactory")!.set(try? JSONEncoder().encode(dict), forKey: "dict")
+            //WidgetCenter.shared.reloadAllTimelines()
         }
     }
     
