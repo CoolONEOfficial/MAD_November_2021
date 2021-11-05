@@ -65,7 +65,7 @@ struct TabbedView: View {
         }
     }
     
-    @State var tab: Tab = .training // TODO: remove
+    @State var tab: Tab = .main
     
     var body: some View {
         VStack {

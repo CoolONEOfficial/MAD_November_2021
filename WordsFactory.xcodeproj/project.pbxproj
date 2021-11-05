@@ -25,6 +25,27 @@
 		8547350F2735763D009AFFB1 /* LocalWordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2298B27355561009E343D /* LocalWordModel.swift */; };
 		8547351027357694009AFFB1 /* WordInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2297B27352661009E343D /* WordInfoModel.swift */; };
 		85473512273576A8009AFFB1 /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 85473511273576A8009AFFB1 /* DynamicColor */; };
+		8547351827357956009AFFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8547351727357956009AFFB1 /* Assets.xcassets */; };
+		8547351E27357956009AFFB1 /* CoolWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8547351D27357956009AFFB1 /* CoolWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8547352327357956009AFFB1 /* WordsFactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547352227357956009AFFB1 /* WordsFactoryApp.swift */; };
+		8547352527357956009AFFB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547352427357956009AFFB1 /* ContentView.swift */; };
+		8547352727357956009AFFB1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547352627357956009AFFB1 /* NotificationController.swift */; };
+		8547352927357956009AFFB1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547352827357956009AFFB1 /* NotificationView.swift */; };
+		8547352B27357956009AFFB1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547352A27357956009AFFB1 /* ComplicationController.swift */; };
+		8547352D27357957009AFFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8547352C27357957009AFFB1 /* Assets.xcassets */; };
+		8547353027357957009AFFB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8547352F27357957009AFFB1 /* Preview Assets.xcassets */; };
+		8547353527357957009AFFB1 /* CoolWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8547351527357954009AFFB1 /* CoolWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		85473541273579E8009AFFB1 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85473540273579E8009AFFB1 /* StartView.swift */; };
+		85473543273579EF009AFFB1 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85473542273579EF009AFFB1 /* StartViewModel.swift */; };
+		8547354527357B1F009AFFB1 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 8547354427357B1F009AFFB1 /* SwiftUIX */; };
+		8547354627357B97009AFFB1 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2295C27351438009E343D /* Fonts.swift */; };
+		8547354727357BA5009AFFB1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B22966273518C4009E343D /* Colors.swift */; };
+		8547354927357BCD009AFFB1 /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 8547354827357BCD009AFFB1 /* DynamicColor */; };
+		8547354A27357BE5009AFFB1 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85473542273579EF009AFFB1 /* StartViewModel.swift */; };
+		8547354B27357BF1009AFFB1 /* WordInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2297B27352661009E343D /* WordInfoModel.swift */; };
+		8547354C27357C03009AFFB1 /* LocalWordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2298B27355561009E343D /* LocalWordModel.swift */; };
+		8547355127357D4C009AFFB1 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547354F27357D4C009AFFB1 /* QuestionsView.swift */; };
+		8547355227357D4C009AFFB1 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547355027357D4C009AFFB1 /* QuestionsViewModel.swift */; };
 		85B228F92735091C009E343D /* WordsFactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B228F82735091C009E343D /* WordsFactoryApp.swift */; };
 		85B228FB2735091C009E343D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B228FA2735091C009E343D /* ContentView.swift */; };
 		85B228FD2735091E009E343D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B228FC2735091E009E343D /* Assets.xcassets */; };
@@ -85,6 +106,20 @@
 			remoteGlobalIDString = 854734F3273573FC009AFFB1;
 			remoteInfo = CoolWidgetExtension;
 		};
+		8547351F27357956009AFFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B228ED2735091C009E343D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8547351C27357956009AFFB1;
+			remoteInfo = "CoolWatch WatchKit Extension";
+		};
+		8547353327357957009AFFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B228ED2735091C009E343D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8547351427357954009AFFB1;
+			remoteInfo = CoolWatch;
+		};
 		85B2290B2735091E009E343D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 85B228ED2735091C009E343D /* Project object */;
@@ -113,6 +148,28 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8547353927357957009AFFB1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8547351E27357956009AFFB1 /* CoolWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8547353D27357957009AFFB1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8547353527357957009AFFB1 /* CoolWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +185,24 @@
 		854734FD273573FF009AFFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854734FF273573FF009AFFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8547350727357406009AFFB1 /* CoolWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoolWidgetExtension.entitlements; sourceTree = "<group>"; };
+		8547351527357954009AFFB1 /* CoolWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8547351727357956009AFFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8547351D27357956009AFFB1 /* CoolWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoolWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8547352227357956009AFFB1 /* WordsFactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsFactoryApp.swift; sourceTree = "<group>"; };
+		8547352427357956009AFFB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8547352627357956009AFFB1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8547352827357956009AFFB1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		8547352A27357956009AFFB1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		8547352C27357957009AFFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8547352F27357957009AFFB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8547353127357957009AFFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8547353227357957009AFFB1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8547353E2735795F009AFFB1 /* CoolWatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CoolWatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		85473540273579E8009AFFB1 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		85473542273579EF009AFFB1 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		8547354F27357D4C009AFFB1 /* QuestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		8547355027357D4C009AFFB1 /* QuestionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewModel.swift; sourceTree = "<group>"; };
+		8547355327358023009AFFB1 /* CoolWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoolWatch.entitlements; sourceTree = "<group>"; };
 		85B228F52735091C009E343D /* WordsFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B228F82735091C009E343D /* WordsFactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsFactoryApp.swift; sourceTree = "<group>"; };
 		85B228FA2735091C009E343D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -181,6 +256,15 @@
 				8547350E27357516009AFFB1 /* SwiftUIX in Frameworks */,
 				854734F9273573FC009AFFB1 /* SwiftUI.framework in Frameworks */,
 				854734F7273573FC009AFFB1 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8547351A27357956009AFFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8547354927357BCD009AFFB1 /* DynamicColor in Frameworks */,
+				8547354527357B1F009AFFB1 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +342,68 @@
 			path = CoolWidget;
 			sourceTree = "<group>";
 		};
+		8547351627357954009AFFB1 /* CoolWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8547355327358023009AFFB1 /* CoolWatch.entitlements */,
+				8547351727357956009AFFB1 /* Assets.xcassets */,
+			);
+			path = CoolWatch;
+			sourceTree = "<group>";
+		};
+		8547352127357956009AFFB1 /* CoolWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8547353F273579CA009AFFB1 /* Screens */,
+				8547353E2735795F009AFFB1 /* CoolWatch WatchKit Extension.entitlements */,
+				8547352227357956009AFFB1 /* WordsFactoryApp.swift */,
+				8547352427357956009AFFB1 /* ContentView.swift */,
+				8547352627357956009AFFB1 /* NotificationController.swift */,
+				8547352827357956009AFFB1 /* NotificationView.swift */,
+				8547352A27357956009AFFB1 /* ComplicationController.swift */,
+				8547352C27357957009AFFB1 /* Assets.xcassets */,
+				8547353127357957009AFFB1 /* Info.plist */,
+				8547353227357957009AFFB1 /* PushNotificationPayload.apns */,
+				8547352E27357957009AFFB1 /* Preview Content */,
+			);
+			path = "CoolWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8547352E27357957009AFFB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8547352F27357957009AFFB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8547353F273579CA009AFFB1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8547354E27357D2A009AFFB1 /* Questions */,
+				8547354D27357D22009AFFB1 /* Start */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8547354D27357D22009AFFB1 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				85473540273579E8009AFFB1 /* StartView.swift */,
+				85473542273579EF009AFFB1 /* StartViewModel.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		8547354E27357D2A009AFFB1 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				8547354F27357D4C009AFFB1 /* QuestionsView.swift */,
+				8547355027357D4C009AFFB1 /* QuestionsViewModel.swift */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
 		85B228EC2735091C009E343D = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +413,8 @@
 				85B2290D2735091E009E343D /* WordsFactoryTests */,
 				85B229172735091E009E343D /* WordsFactoryUITests */,
 				854734FA273573FC009AFFB1 /* CoolWidget */,
+				8547351627357954009AFFB1 /* CoolWatch */,
+				8547352127357956009AFFB1 /* CoolWatch WatchKit Extension */,
 				854734F5273573FC009AFFB1 /* Frameworks */,
 				85B228F62735091C009E343D /* Products */,
 			);
@@ -279,6 +427,8 @@
 				85B2290A2735091E009E343D /* WordsFactoryTests.xctest */,
 				85B229142735091E009E343D /* WordsFactoryUITests.xctest */,
 				854734F4273573FC009AFFB1 /* CoolWidgetExtension.appex */,
+				8547351527357954009AFFB1 /* CoolWatch.app */,
+				8547351D27357956009AFFB1 /* CoolWatch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -465,6 +615,44 @@
 			productReference = 854734F4273573FC009AFFB1 /* CoolWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		8547351427357954009AFFB1 /* CoolWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8547353A27357957009AFFB1 /* Build configuration list for PBXNativeTarget "CoolWatch" */;
+			buildPhases = (
+				8547351327357954009AFFB1 /* Resources */,
+				8547353927357957009AFFB1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8547352027357956009AFFB1 /* PBXTargetDependency */,
+			);
+			name = CoolWatch;
+			productName = CoolWatch;
+			productReference = 8547351527357954009AFFB1 /* CoolWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8547351C27357956009AFFB1 /* CoolWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8547353627357957009AFFB1 /* Build configuration list for PBXNativeTarget "CoolWatch WatchKit Extension" */;
+			buildPhases = (
+				8547351927357956009AFFB1 /* Sources */,
+				8547351A27357956009AFFB1 /* Frameworks */,
+				8547351B27357956009AFFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoolWatch WatchKit Extension";
+			packageProductDependencies = (
+				8547354427357B1F009AFFB1 /* SwiftUIX */,
+				8547354827357BCD009AFFB1 /* DynamicColor */,
+			);
+			productName = "CoolWatch WatchKit Extension";
+			productReference = 8547351D27357956009AFFB1 /* CoolWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		85B228F42735091C009E343D /* WordsFactory */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85B2291E2735091E009E343D /* Build configuration list for PBXNativeTarget "WordsFactory" */;
@@ -473,11 +661,13 @@
 				85B228F22735091C009E343D /* Frameworks */,
 				85B228F32735091C009E343D /* Resources */,
 				85473506273573FF009AFFB1 /* Embed App Extensions */,
+				8547353D27357957009AFFB1 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				85473501273573FF009AFFB1 /* PBXTargetDependency */,
+				8547353427357957009AFFB1 /* PBXTargetDependency */,
 			);
 			name = WordsFactory;
 			packageProductDependencies = (
@@ -548,6 +738,12 @@
 					854734F3273573FC009AFFB1 = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					8547351427357954009AFFB1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					8547351C27357956009AFFB1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					85B228F42735091C009E343D = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -592,6 +788,8 @@
 				85B229092735091E009E343D /* WordsFactoryTests */,
 				85B229132735091E009E343D /* WordsFactoryUITests */,
 				854734F3273573FC009AFFB1 /* CoolWidgetExtension */,
+				8547351427357954009AFFB1 /* CoolWatch */,
+				8547351C27357956009AFFB1 /* CoolWatch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -605,6 +803,23 @@
 				8547350927357480009AFFB1 /* Rubik-Bold.ttf in Resources */,
 				8547350827357480009AFFB1 /* Rubik-Regular.ttf in Resources */,
 				8547350A27357480009AFFB1 /* Rubik-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8547351327357954009AFFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8547351827357956009AFFB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8547351B27357956009AFFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8547353027357957009AFFB1 /* Preview Assets.xcassets in Resources */,
+				8547352D27357957009AFFB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,10 +858,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				8547350B27357489009AFFB1 /* Fonts.swift in Sources */,
+				8547354A27357BE5009AFFB1 /* StartViewModel.swift in Sources */,
 				8547350C273574F1009AFFB1 /* Colors.swift in Sources */,
 				8547351027357694009AFFB1 /* WordInfoModel.swift in Sources */,
 				854734FC273573FC009AFFB1 /* CoolWidget.swift in Sources */,
 				8547350F2735763D009AFFB1 /* LocalWordModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8547351927357956009AFFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8547354627357B97009AFFB1 /* Fonts.swift in Sources */,
+				8547354727357BA5009AFFB1 /* Colors.swift in Sources */,
+				85473543273579EF009AFFB1 /* StartViewModel.swift in Sources */,
+				8547352727357956009AFFB1 /* NotificationController.swift in Sources */,
+				8547352527357956009AFFB1 /* ContentView.swift in Sources */,
+				8547352B27357956009AFFB1 /* ComplicationController.swift in Sources */,
+				8547354C27357C03009AFFB1 /* LocalWordModel.swift in Sources */,
+				85473541273579E8009AFFB1 /* StartView.swift in Sources */,
+				8547355127357D4C009AFFB1 /* QuestionsView.swift in Sources */,
+				8547354B27357BF1009AFFB1 /* WordInfoModel.swift in Sources */,
+				8547352327357956009AFFB1 /* WordsFactoryApp.swift in Sources */,
+				8547352927357956009AFFB1 /* NotificationView.swift in Sources */,
+				8547355227357D4C009AFFB1 /* QuestionsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +950,16 @@
 			target = 854734F3273573FC009AFFB1 /* CoolWidgetExtension */;
 			targetProxy = 85473500273573FF009AFFB1 /* PBXContainerItemProxy */;
 		};
+		8547352027357956009AFFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8547351C27357956009AFFB1 /* CoolWatch WatchKit Extension */;
+			targetProxy = 8547351F27357956009AFFB1 /* PBXContainerItemProxy */;
+		};
+		8547353427357957009AFFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8547351427357954009AFFB1 /* CoolWatch */;
+			targetProxy = 8547353327357957009AFFB1 /* PBXContainerItemProxy */;
+		};
 		85B2290C2735091E009E343D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 85B228F42735091C009E343D /* WordsFactory */;
@@ -780,6 +1026,124 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8547353727357957009AFFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "CoolWatch WatchKit Extension/CoolWatch WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoolWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 99C2LB4W93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoolWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CoolWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.coolone.WordsFactory.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		8547353827357957009AFFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "CoolWatch WatchKit Extension/CoolWatch WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoolWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 99C2LB4W93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoolWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CoolWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.coolone.WordsFactory.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		8547353B27357957009AFFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoolWatch/CoolWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99C2LB4W93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CoolWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = CoolWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ru.coolone.WordsFactory;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.coolone.WordsFactory.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		8547353C27357957009AFFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoolWatch/CoolWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99C2LB4W93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CoolWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = CoolWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ru.coolone.WordsFactory;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.coolone.WordsFactory.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -1075,6 +1439,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8547353627357957009AFFB1 /* Build configuration list for PBXNativeTarget "CoolWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8547353727357957009AFFB1 /* Debug */,
+				8547353827357957009AFFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8547353A27357957009AFFB1 /* Build configuration list for PBXNativeTarget "CoolWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8547353B27357957009AFFB1 /* Debug */,
+				8547353C27357957009AFFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		85B228F02735091C009E343D /* Build configuration list for PBXProject "WordsFactory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1219,6 +1601,16 @@
 			productName = SwiftUIX;
 		};
 		85473511273576A8009AFFB1 /* DynamicColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B2293827350A23009E343D /* XCRemoteSwiftPackageReference "DynamicColor" */;
+			productName = DynamicColor;
+		};
+		8547354427357B1F009AFFB1 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B2293B27350A2D009E343D /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		8547354827357BCD009AFFB1 /* DynamicColor */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 85B2293827350A23009E343D /* XCRemoteSwiftPackageReference "DynamicColor" */;
 			productName = DynamicColor;
