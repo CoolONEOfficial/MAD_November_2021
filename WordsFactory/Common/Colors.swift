@@ -15,4 +15,7 @@ extension Color {
     static var nonActive: Color = .init(hex: 0xD5D4D4)
     static var secondary: Color = .init(hex: 0x65AAEA)
     static var primary: Color = .init(hex: 0xE3562A)
+    static var warning: Color = .init(hex: 0xF2A03F)
+    
+    
 }

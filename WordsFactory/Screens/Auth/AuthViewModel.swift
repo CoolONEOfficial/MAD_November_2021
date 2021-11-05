@@ -26,7 +26,7 @@ class AuthViewModel: ViewModel {
             return
         }
         
-        UserDefaults.standard.set(true, forKey: "auth")
+        UserDefaults(suiteName: "group.wordsfactory")!.set(true, forKey: "auth")
         main = true
     }
 }

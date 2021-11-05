@@ -14,4 +14,7 @@ extension Font {
     static let plainButton = Font.custom("Rubik-Regular", size: 16)
     static let title = Font.custom("Rubik-Medium", size: 24)
     static let subtitle = Font.custom("Rubik-Medium", size: 20)
+    static let h1 = Font.custom("Rubik-Bold", size: 56)
+    static let h3 = Font.custom("Rubik-Bold", size: 32)
+    
 }

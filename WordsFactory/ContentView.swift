@@ -20,7 +20,7 @@ struct ContentView: View {
     
     @ViewBuilder
     var content: some View {
-        if UserDefaults.standard.bool(forKey: "auth") {
+        if UserDefaults(suiteName: "group.wordsfactory")!.bool(forKey: "auth") {
             TabbedView()
         } else {
             ShowcaseView(vm: .init(notifications))

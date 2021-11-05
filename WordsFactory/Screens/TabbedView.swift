@@ -60,11 +60,12 @@ struct TabbedView: View {
         case .video:
             VideoView(vm: .init(notifications))
             
-        default: fatalError()
+        case .training:
+            TrainingView(vm: .init(notifications))
         }
     }
     
-    @State var tab: Tab = .main
+    @State var tab: Tab = .training // TODO: remove
     
     var body: some View {
         VStack {

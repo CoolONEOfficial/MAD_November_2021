@@ -18,9 +18,9 @@ class MainViewModel: ViewModel {
     
     let nw = NetworkServiceSingleton.shared
     
-    @Published var dict: [WordInfoModel] = (try? JSONDecoder().decode([WordInfoModel].self, from: UserDefaults.standard.data(forKey: "dict") ?? .init())) ?? [] {
+    @Published var dict: [LocalWordModel] = (try? JSONDecoder().decode([LocalWordModel].self, from: UserDefaults(suiteName: "group.wordsfactory")!.data(forKey: "dict") ?? .init())) ?? [] {
         didSet {
-            UserDefaults.standard.set(try? JSONEncoder().encode(dict), forKey: "dict")
+            UserDefaults(suiteName: "group.wordsfactory")!.set(try? JSONEncoder().encode(dict), forKey: "dict")
         }
     }
     
@@ -35,8 +35,8 @@ class MainViewModel: ViewModel {
                     self.notifications.alert = .init(title: Text("Word info get error"), message: nil, dismissButton: nil)
                 }
             }
-        } else if let word = dict.first(where: { $0.word?.lowercased() == query.lowercased() }) {
-            self.info = word
+        } else if let word = dict.first(where: { $0.model.word?.lowercased() == query.lowercased() }) {
+            self.info = word.model
         } else {
             self.notifications.alert = .init(title: Text("No internet and cached result!"), message: nil, dismissButton:  nil)
         }
@@ -44,7 +44,7 @@ class MainViewModel: ViewModel {
     
     func addToDict() {
         if let info = info {
-            dict.append(info)
+            dict.append(.init(level: 0, model: info))
         }
     }
 }

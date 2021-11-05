@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		854734E827355C44009AFFB1 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854734E627355C44009AFFB1 /* QuestionsView.swift */; };
+		854734E927355C44009AFFB1 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854734E727355C44009AFFB1 /* QuestionsViewModel.swift */; };
+		854734ED27356D8D009AFFB1 /* FinishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854734EB27356D8D009AFFB1 /* FinishViewModel.swift */; };
+		854734EE27356D8D009AFFB1 /* FinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854734EC27356D8D009AFFB1 /* FinishView.swift */; };
+		854734F7273573FC009AFFB1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854734F6273573FC009AFFB1 /* WidgetKit.framework */; };
+		854734F9273573FC009AFFB1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854734F8273573FC009AFFB1 /* SwiftUI.framework */; };
+		854734FC273573FC009AFFB1 /* CoolWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854734FB273573FC009AFFB1 /* CoolWidget.swift */; };
+		854734FE273573FF009AFFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854734FD273573FF009AFFB1 /* Assets.xcassets */; };
+		85473502273573FF009AFFB1 /* CoolWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 854734F4273573FC009AFFB1 /* CoolWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8547350827357480009AFFB1 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85B2295627351400009E343D /* Rubik-Regular.ttf */; };
+		8547350927357480009AFFB1 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85B2295527351400009E343D /* Rubik-Bold.ttf */; };
+		8547350A27357480009AFFB1 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85B2295427351400009E343D /* Rubik-Medium.ttf */; };
+		8547350B27357489009AFFB1 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2295C27351438009E343D /* Fonts.swift */; };
+		8547350C273574F1009AFFB1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B22966273518C4009E343D /* Colors.swift */; };
+		8547350E27357516009AFFB1 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 8547350D27357516009AFFB1 /* SwiftUIX */; };
+		8547350F2735763D009AFFB1 /* LocalWordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2298B27355561009E343D /* LocalWordModel.swift */; };
+		8547351027357694009AFFB1 /* WordInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2297B27352661009E343D /* WordInfoModel.swift */; };
+		85473512273576A8009AFFB1 /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 85473511273576A8009AFFB1 /* DynamicColor */; };
 		85B228F92735091C009E343D /* WordsFactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B228F82735091C009E343D /* WordsFactoryApp.swift */; };
 		85B228FB2735091C009E343D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B228FA2735091C009E343D /* ContentView.swift */; };
 		85B228FD2735091E009E343D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B228FC2735091E009E343D /* Assets.xcassets */; };
@@ -54,9 +72,19 @@
 		85B2298727353A41009E343D /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2298527353A41009E343D /* VideoView.swift */; };
 		85B2298827353A41009E343D /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2298627353A41009E343D /* VideoViewModel.swift */; };
 		85B2298A27353D89009E343D /* MusicServiceSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2298927353D89009E343D /* MusicServiceSingleton.swift */; };
+		85B2298C27355561009E343D /* LocalWordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2298B27355561009E343D /* LocalWordModel.swift */; };
+		85B22990273555EE009E343D /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2298E273555EE009E343D /* TrainingView.swift */; };
+		85B22991273555EE009E343D /* TrainingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2298F273555EE009E343D /* TrainingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		85473500273573FF009AFFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B228ED2735091C009E343D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 854734F3273573FC009AFFB1;
+			remoteInfo = CoolWidgetExtension;
+		};
 		85B2290B2735091E009E343D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 85B228ED2735091C009E343D /* Project object */;
@@ -73,7 +101,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		85473506273573FF009AFFB1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				85473502273573FF009AFFB1 /* CoolWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		854734E627355C44009AFFB1 /* QuestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		854734E727355C44009AFFB1 /* QuestionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewModel.swift; sourceTree = "<group>"; };
+		854734EB27356D8D009AFFB1 /* FinishViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishViewModel.swift; sourceTree = "<group>"; };
+		854734EC27356D8D009AFFB1 /* FinishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishView.swift; sourceTree = "<group>"; };
+		854734EF273573D9009AFFB1 /* WordsFactory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordsFactory.entitlements; sourceTree = "<group>"; };
+		854734F4273573FC009AFFB1 /* CoolWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoolWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		854734F6273573FC009AFFB1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		854734F8273573FC009AFFB1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		854734FB273573FC009AFFB1 /* CoolWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolWidget.swift; sourceTree = "<group>"; };
+		854734FD273573FF009AFFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		854734FF273573FF009AFFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8547350727357406009AFFB1 /* CoolWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoolWidgetExtension.entitlements; sourceTree = "<group>"; };
 		85B228F52735091C009E343D /* WordsFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B228F82735091C009E343D /* WordsFactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsFactoryApp.swift; sourceTree = "<group>"; };
 		85B228FA2735091C009E343D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,9 +167,23 @@
 		85B2298527353A41009E343D /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		85B2298627353A41009E343D /* VideoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
 		85B2298927353D89009E343D /* MusicServiceSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicServiceSingleton.swift; sourceTree = "<group>"; };
+		85B2298B27355561009E343D /* LocalWordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWordModel.swift; sourceTree = "<group>"; };
+		85B2298E273555EE009E343D /* TrainingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		85B2298F273555EE009E343D /* TrainingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		854734F1273573FC009AFFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85473512273576A8009AFFB1 /* DynamicColor in Frameworks */,
+				8547350E27357516009AFFB1 /* SwiftUIX in Frameworks */,
+				854734F9273573FC009AFFB1 /* SwiftUI.framework in Frameworks */,
+				854734F7273573FC009AFFB1 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85B228F22735091C009E343D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,13 +221,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		854734E527355C25009AFFB1 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				854734E627355C44009AFFB1 /* QuestionsView.swift */,
+				854734E727355C44009AFFB1 /* QuestionsViewModel.swift */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		854734EA2735685F009AFFB1 /* Finish */ = {
+			isa = PBXGroup;
+			children = (
+				854734EC27356D8D009AFFB1 /* FinishView.swift */,
+				854734EB27356D8D009AFFB1 /* FinishViewModel.swift */,
+			);
+			path = Finish;
+			sourceTree = "<group>";
+		};
+		854734F5273573FC009AFFB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				854734F6273573FC009AFFB1 /* WidgetKit.framework */,
+				854734F8273573FC009AFFB1 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		854734FA273573FC009AFFB1 /* CoolWidget */ = {
+			isa = PBXGroup;
+			children = (
+				854734FB273573FC009AFFB1 /* CoolWidget.swift */,
+				854734FD273573FF009AFFB1 /* Assets.xcassets */,
+				854734FF273573FF009AFFB1 /* Info.plist */,
+			);
+			path = CoolWidget;
+			sourceTree = "<group>";
+		};
 		85B228EC2735091C009E343D = {
 			isa = PBXGroup;
 			children = (
+				8547350727357406009AFFB1 /* CoolWidgetExtension.entitlements */,
 				85B2297D273530A0009E343D /* README.md */,
 				85B228F72735091C009E343D /* WordsFactory */,
 				85B2290D2735091E009E343D /* WordsFactoryTests */,
 				85B229172735091E009E343D /* WordsFactoryUITests */,
+				854734FA273573FC009AFFB1 /* CoolWidget */,
+				854734F5273573FC009AFFB1 /* Frameworks */,
 				85B228F62735091C009E343D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,6 +278,7 @@
 				85B228F52735091C009E343D /* WordsFactory.app */,
 				85B2290A2735091E009E343D /* WordsFactoryTests.xctest */,
 				85B229142735091E009E343D /* WordsFactoryUITests.xctest */,
+				854734F4273573FC009AFFB1 /* CoolWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +286,7 @@
 		85B228F72735091C009E343D /* WordsFactory */ = {
 			isa = PBXGroup;
 			children = (
+				854734EF273573D9009AFFB1 /* WordsFactory.entitlements */,
 				85B2295B2735142F009E343D /* Common */,
 				85B2295A27351410009E343D /* Info.plist */,
 				85B2294E273513D7009E343D /* Screens */,
@@ -230,7 +340,10 @@
 		85B2294E273513D7009E343D /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				854734EA2735685F009AFFB1 /* Finish */,
 				85B22964273515D0009E343D /* TabbedView.swift */,
+				854734E527355C25009AFFB1 /* Questions */,
+				85B2298D273555CE009E343D /* Training */,
 				85B2298227353941009E343D /* Video */,
 				85B229722735256D009E343D /* Main */,
 				85B2296A27351DED009E343D /* Auth */,
@@ -305,6 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				85B2297B27352661009E343D /* WordInfoModel.swift */,
+				85B2298B27355561009E343D /* LocalWordModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -318,9 +432,39 @@
 			path = Video;
 			sourceTree = "<group>";
 		};
+		85B2298D273555CE009E343D /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				85B2298E273555EE009E343D /* TrainingView.swift */,
+				85B2298F273555EE009E343D /* TrainingViewModel.swift */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		854734F3273573FC009AFFB1 /* CoolWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85473503273573FF009AFFB1 /* Build configuration list for PBXNativeTarget "CoolWidgetExtension" */;
+			buildPhases = (
+				854734F0273573FC009AFFB1 /* Sources */,
+				854734F1273573FC009AFFB1 /* Frameworks */,
+				854734F2273573FC009AFFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolWidgetExtension;
+			packageProductDependencies = (
+				8547350D27357516009AFFB1 /* SwiftUIX */,
+				85473511273576A8009AFFB1 /* DynamicColor */,
+			);
+			productName = CoolWidgetExtension;
+			productReference = 854734F4273573FC009AFFB1 /* CoolWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		85B228F42735091C009E343D /* WordsFactory */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85B2291E2735091E009E343D /* Build configuration list for PBXNativeTarget "WordsFactory" */;
@@ -328,10 +472,12 @@
 				85B228F12735091C009E343D /* Sources */,
 				85B228F22735091C009E343D /* Frameworks */,
 				85B228F32735091C009E343D /* Resources */,
+				85473506273573FF009AFFB1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				85473501273573FF009AFFB1 /* PBXTargetDependency */,
 			);
 			name = WordsFactory;
 			packageProductDependencies = (
@@ -399,6 +545,9 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					854734F3273573FC009AFFB1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					85B228F42735091C009E343D = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -442,11 +591,23 @@
 				85B228F42735091C009E343D /* WordsFactory */,
 				85B229092735091E009E343D /* WordsFactoryTests */,
 				85B229132735091E009E343D /* WordsFactoryUITests */,
+				854734F3273573FC009AFFB1 /* CoolWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		854734F2273573FC009AFFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854734FE273573FF009AFFB1 /* Assets.xcassets in Resources */,
+				8547350927357480009AFFB1 /* Rubik-Bold.ttf in Resources */,
+				8547350827357480009AFFB1 /* Rubik-Regular.ttf in Resources */,
+				8547350A27357480009AFFB1 /* Rubik-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85B228F32735091C009E343D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -477,6 +638,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		854734F0273573FC009AFFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8547350B27357489009AFFB1 /* Fonts.swift in Sources */,
+				8547350C273574F1009AFFB1 /* Colors.swift in Sources */,
+				8547351027357694009AFFB1 /* WordInfoModel.swift in Sources */,
+				854734FC273573FC009AFFB1 /* CoolWidget.swift in Sources */,
+				8547350F2735763D009AFFB1 /* LocalWordModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85B228F12735091C009E343D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,26 +658,33 @@
 				85B2297127351E47009E343D /* MyTextField.swift in Sources */,
 				85B2296E27351E0A009E343D /* AuthView.swift in Sources */,
 				85B2295D27351438009E343D /* Fonts.swift in Sources */,
+				85B22990273555EE009E343D /* TrainingView.swift in Sources */,
 				85B22967273518C4009E343D /* Colors.swift in Sources */,
 				85B2297C27352661009E343D /* WordInfoModel.swift in Sources */,
+				854734EE27356D8D009AFFB1 /* FinishView.swift in Sources */,
 				85B2298727353A41009E343D /* VideoView.swift in Sources */,
 				85B229052735091E009E343D /* WordsFactory.xcdatamodeld in Sources */,
 				85B229022735091E009E343D /* Persistence.swift in Sources */,
 				85B2297F27353253009E343D /* WordInfoView.swift in Sources */,
 				85B2298827353A41009E343D /* VideoViewModel.swift in Sources */,
+				85B2298C27355561009E343D /* LocalWordModel.swift in Sources */,
 				85B2296327351583009E343D /* Notifications.swift in Sources */,
 				85B228FB2735091C009E343D /* ContentView.swift in Sources */,
 				85B22951273513EC009E343D /* ShowcaseView.swift in Sources */,
+				854734E827355C44009AFFB1 /* QuestionsView.swift in Sources */,
 				85B22965273515D0009E343D /* TabbedView.swift in Sources */,
 				85B2296927351A24009E343D /* BS.swift in Sources */,
 				85B229762735259F009E343D /* MainView.swift in Sources */,
 				85B2298427353965009E343D /* WebAdapterView.swift in Sources */,
 				85B228F92735091C009E343D /* WordsFactoryApp.swift in Sources */,
 				85B229612735156F009E343D /* ViewModel.swift in Sources */,
+				85B22991273555EE009E343D /* TrainingViewModel.swift in Sources */,
 				85B2298A27353D89009E343D /* MusicServiceSingleton.swift in Sources */,
 				85B2296D27351E0A009E343D /* AuthViewModel.swift in Sources */,
+				854734E927355C44009AFFB1 /* QuestionsViewModel.swift in Sources */,
 				85B2298127353317009E343D /* DefCardView.swift in Sources */,
 				85B22953273513F4009E343D /* ShowcaseViewModel.swift in Sources */,
+				854734ED27356D8D009AFFB1 /* FinishViewModel.swift in Sources */,
 				85B229752735259F009E343D /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +709,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		85473501273573FF009AFFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 854734F3273573FC009AFFB1 /* CoolWidgetExtension */;
+			targetProxy = 85473500273573FF009AFFB1 /* PBXContainerItemProxy */;
+		};
 		85B2290C2735091E009E343D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 85B228F42735091C009E343D /* WordsFactory */;
@@ -542,6 +727,62 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		85473504273573FF009AFFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = CoolWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99C2LB4W93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoolWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoolWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.coolone.WordsFactory.CoolWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85473505273573FF009AFFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = CoolWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99C2LB4W93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoolWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoolWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.coolone.WordsFactory.CoolWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		85B2291C2735091E009E343D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -661,8 +902,10 @@
 		85B2291F2735091E009E343D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordsFactory/WordsFactory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordsFactory/Preview Content\"";
@@ -693,8 +936,10 @@
 		85B229202735091E009E343D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordsFactory/WordsFactory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordsFactory/Preview Content\"";
@@ -821,6 +1066,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		85473503273573FF009AFFB1 /* Build configuration list for PBXNativeTarget "CoolWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85473504273573FF009AFFB1 /* Debug */,
+				85473505273573FF009AFFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		85B228F02735091C009E343D /* Build configuration list for PBXProject "WordsFactory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -959,6 +1213,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8547350D27357516009AFFB1 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B2293B27350A2D009E343D /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		85473511273576A8009AFFB1 /* DynamicColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B2293827350A23009E343D /* XCRemoteSwiftPackageReference "DynamicColor" */;
+			productName = DynamicColor;
+		};
 		85B22928273509E5009E343D /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 85B22927273509E5009E343D /* XCRemoteSwiftPackageReference "Alamofire" */;
