@@ -15,7 +15,7 @@ class StartViewModel: ObservableObject {
     
     @Published var seconds: Int = 5
     
-    @Published var questions = true//false TODO: remo
+    @Published var questions = false
     
     @Published var anim = false
     

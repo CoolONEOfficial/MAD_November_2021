@@ -52,7 +52,7 @@ Start the Training?
             Spacer()
             if let sec = vm.seconds  {
                 Text(secText).foregroundColor(secColor).font(.h1).width(100).height(100)
-                    .background(Circle().trim(from: vm.anim ? 0 : 1, to: 1).rotation(.degrees(-90)).stroke(style: .init(lineWidth: 10, lineCap: .round)).foregroundColor(secColor)) // todo: mirror
+                    .background(Circle().trim(from: vm.anim ? 0 : 1, to: 1).rotation(.degrees(-90)).stroke(style: .init(lineWidth: 10, lineCap: .round)).mirror3D(axis: .y).foregroundColor(secColor)) // todo: mirror
             } else {
                 Button("Start") {
                     vm.startTap()
